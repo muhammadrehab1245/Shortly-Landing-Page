@@ -1,0 +1,191 @@
+
+
+.sec-btn button {
+    width:107px}
+
+    .sec-btn {
+        max-width: inherit;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sec-h1 h1 {
+        font-size: 29px;
+    }
+
+    .sec-p1 p{
+        font-size: 13px;
+    }
+
+   
+
+    .sec-p1 p{
+        text-align: center;
+    }
+
+    .btn-links {
+        margin: 20px 12px;
+        width: 47%;
+        display: block;
+        margin: auto;
+    }
+    .linksec {
+        flex-direction: column-reverse;
+    }
+
+    .divimg img {
+        height: 200px;
+        display: block;
+        margin: auto;
+        top: auto;
+    }
+    .i-links {
+        top: 20px;
+        display: block;
+        margin: auto;
+    }
+
+    .i-links {
+        top: 20px;
+        display: block;
+        margin: auto;
+        height: 87px;
+    }
+
+    .s-links{
+        height: 153px;
+        margin-top: 141px;
+    }
+
+    .l-border {
+        flex-direction: column;
+    }
+
+    .det-h h1{
+        font-size: 20px;
+    }
+
+    .det-p p{
+        font-size: 15px;
+    }
+
+    .boxes-d {
+        flex-direction: column;}
+
+        
+
+
+.det-sec {
+    height: auto;}
+
+    .det-1{
+        height: 295px;
+        margin-top: 25px;
+    }
+
+    .box-p p {
+        margin: 0px;
+        font-size: 12px;
+    }
+
+    .box-h h1 {
+        font-size: 19px;
+    }
+
+    .boost-l {
+        margin-top: 72px;
+    }
+
+    .boost-btn button {
+        font-size: 13px;
+        width: 97px;
+    }
+
+    .boost-h h1 {
+        font-size: 21px;
+    }
+
+    #ftr {
+        flex-direction: column;}
+
+        .ftr-h h1 {
+            margin: 14px 0px;
+            text-align: center;
+        }
+
+        
+.ftr-h {
+    width: inherit;
+}
+
+#ftr-links {
+    flex-direction: column;
+    width: inherit;}
+
+    .features, .resources, .company {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features li, .resources li, .company li {
+        margin-top: 0px;
+        font-size: 12px;
+    }
+   
+    
+    .navbar {
+        margin-left: 9px;
+        flex-direction: column;
+        height: 245px;
+        transition: all 0.7s ease-out;
+   }
+
+   .resnav{
+    height: 40px;
+   }
+
+   
+   .resweb{
+    opacity: 0;
+}
+
+.weblinks {
+    width: inherit;
+    flex-direction: column;
+    }
+
+   
+   
+.links{
+    line-height: 1.8;
+}
+    .btns {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 20px;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .btns button {
+        width: 98px;}
+
+        .hamburger {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-end;
+            position: absolute;
+            cursor: pointer;
+            width: 92%; 
+        }
+        
+        .lines{
+       
+    background-color: white;
+    width:35px;
+    height: 5px;
+    margin: 4px 3px;
+    }

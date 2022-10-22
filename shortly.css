@@ -1,0 +1,392 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    margin-left: 20px;
+    padding: 30px;
+    height: 60px;
+    display: flex;
+    
+}
+
+.nav-style{
+    background-color: rgb(86, 39, 129);
+
+}
+
+.weblinks{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 4px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.headapi{
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+
+}
+
+.navbar ul li a{
+    font-family: 'Kanit', sans-serif;
+    margin: 12px;
+    color: grey;
+   
+}
+
+.navbar ul li a:active{
+    background-color: black;
+    color: white;
+   
+}
+
+
+
+.btns{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.btns button{
+    font-family: 'Kanit', sans-serif;
+    margin: 8px;
+    width:9%;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.l-btn{
+    background-color: white;
+    color: grey;
+}
+.s-btn{
+    color: white;
+    background-color: rgb(21, 214, 214);
+}
+
+.s-btn:active{
+    background-color: aqua;
+}
+
+.linksec{
+    height: 480px;
+    margin: auto;
+    max-width: 90%;
+    display: flex;
+}
+
+.d-sec{
+
+    height: 100px;
+    margin-top: 5rem;
+}
+
+.sec-h1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 70%;
+  
+}
+
+.sec-h1 h1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 41px;
+}
+
+.sec-p1{
+
+    font-family: 'Kanit', sans-serif;
+    margin: auto;
+    max-width:70%;
+    box-sizing: border-box;
+}
+
+.sec-btn{
+    max-width: 69%;
+    margin: auto;
+    
+}
+
+.sec-btn button{
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(21, 214, 214);
+    padding: 8px;
+    border-radius: 13px;
+    width: 40%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 17px 14px;
+}
+
+.sec-btn button:active{
+    background-color: aqua;
+}
+
+
+.divimg img{
+   height: 350px;
+   position: relative;
+   top: 100px;
+}
+
+.s-links{
+    border: 2px solid black;
+    max-width: 70%;
+    margin: auto;
+    height: 90px;
+    background-color: rgb(86, 39, 129);
+    background: rgb(86, 39, 129) url("bg-boost-desktop.svg") no-repeat right top;
+    position: relative;
+    top: 3rem;
+  
+}
+.l-border{
+    
+    display: flex;
+}
+
+.i-links{
+    width: 80%;
+    position: relative;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 87px;
+
+}
+
+.i-links input{
+    font-family: 'Kanit', sans-serif;
+    width: 90%;
+    padding: 14px;
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+.btn-links{
+    margin:20px 12px;
+    width: 20%;
+
+}
+
+.btn-links button{
+    padding: 11px;
+    font-family: 'Kanit', sans-serif;
+    width: 93%;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(21, 214, 214);
+}
+.btn-links button:active{
+    background-color: aqua;
+}
+.det-sec{
+    background-color: whitesmoke;
+    height: 550px;
+}
+
+.det-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+}
+
+.det-h,.det-p{
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    justify-content: center;
+}
+
+.det-p{
+    width: 30%;
+}
+
+.boxes-d{
+    display: flex;
+
+    max-width: 80%;
+    margin: auto;
+ 
+}
+
+.det-box{
+    border: 1px solid black;
+    font-family: 'Kanit', sans-serif;
+    width:100%;
+    margin-left: 16px;
+}
+
+.box-img img{
+    position: relative;
+    left: 1.5rem;
+    background-color: black;
+    border-radius: 20px;
+    bottom: 1.7rem;
+    height: 50px;
+}
+
+.box-h{
+    text-align: center;
+    
+}
+
+
+.box-h h1{
+    font-size: 21px;
+}
+
+.box-p{
+    text-align: center;
+}
+
+.box-p p{
+    margin: 13px 4px;
+    font-size: 14px;
+}
+
+#box-2{
+    position: relative;
+    top: 22px;
+}
+
+#box-3{
+    position: relative;
+    top: 44px;}
+
+#box-1,#box-2,#box-3{
+    background-color: rgb(255, 255, 255);
+}
+
+.l-items{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+
+}
+
+.boost-l{
+    background: rgb(86, 39, 129) url("bg-boost-desktop.svg") no-repeat right top;
+    height: 130px;
+  
+}
+
+.boost-h h1{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-family: 'Kanit', sans-serif;
+ color: white;
+ 
+}
+.boost-h{
+    margin-top: 40px;
+}
+.boost-btn{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+.boost-btn button{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(21, 214, 214);
+    width: 10%;
+    border-radius: 15px;
+    color: white;
+}
+.boost-btn button:active{
+    background-color: aqua;
+}
+
+#ftr{
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    max-width: 86%;
+    margin: auto;
+    color: white;
+    
+}
+
+.last{
+    background-color: black;
+
+}
+
+.r-ft,.c-ft,.f-ft{
+    list-style: none;
+}
+
+.ftr-h{
+    width: 26%;
+}
+
+.ftr-h h1{
+   margin: 20px 5px;
+}
+
+#ftr-links{
+    display: flex;
+    width: 60%;
+}
+
+.features h5,.resources h5,.company h5{
+    font-size: 20px;
+}
+
+
+
+.features,.resources,.company{
+  margin: 20px 50px;
+}
+
+.features ul,.resources ul,.company ul{
+    margin-top: 7px;
+}
+
+.features li,.resources li,.company li{
+    margin-top: 3px;
+}
+
+.social-i{
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.resources li:active,.company li:active,#ftr-links li:active{
+    cursor: pointer;
+    color: aqua;
+}
+
+.features ul, .resources ul, .company ul {
+    margin-top: auto;
+}
+
+.features h5, .resources h5, .company h5 {
+    font-size: 15px;
+}
+
+.social-i {
+    padding-top: 12px;
+    font-size: 21px;
+    display: block;
+    margin: auto;}
+
+
+  
